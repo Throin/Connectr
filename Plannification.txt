@@ -1,0 +1,15 @@
+Main components:
+
+	Database
+		Contains all sessions from different activities, where they are currently stored... 
+	
+	Session
+		Contains information regarding an activity performed during a given time
+
+	Synchroniser
+		Contains capacities to retrieve sessions info from different sources, update the Database, and conversely update from the Database towards different sources
+
+	Analyser
+		Take info from a session or group or session and produce new information (summary, resultats, advices)
+
+	
